@@ -1,0 +1,35 @@
+{
+    "java.project.sourcePaths": ["src", "test"],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabCompletion": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.preview": false,
+    "editor.suggest.showInlineDetails": false,
+    "java.completion.enabled": false,
+    "java.signatureHelp.enabled": false,
+    "java.completion.postfix.enabled": false,
+
+    "chat.disableAIFeatures": true,
+    "chat.commandCenter.enabled": false,
+    "chat.agent.enabled": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.nextEditSuggestions.enabled": false
+}

@@ -1,0 +1,20 @@
+# Instructor-only material -- must never be committed to this (public) repo.
+# It contains the reference solution and notes on common student mistakes.
+instructor/
+
+# Hand-compiled classes
+out/
+*.class
+
+# IDE settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
