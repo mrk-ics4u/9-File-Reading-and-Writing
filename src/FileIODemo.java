@@ -22,41 +22,29 @@ public class FileIODemo {
 
     public static void main(String[] args) throws IOException {
         makeSampleFile();
-
-        pythonFilesToJava();
         readingAFile();
         readingLineByLine();
         splittingCsvLines();
-        writingAFile();
-        loadingADataSet();
-        commonFileBugs();
+        // writingAFile();
+        // loadingADataSet();
+        // commonFileBugs();
 
-        new File(SCORES_FILE).delete();
-        new File(REPORT_FILE).delete();
+        //new File(SCORES_FILE).delete();
+        //new File(REPORT_FILE).delete();
     }
 
     // method to create the small CSV file the other sections read
     public static void makeSampleFile() throws IOException {
         PrintWriter out = new PrintWriter(new File(SCORES_FILE));
         out.println("name,score");
-        out.println("Ada,88");
+        out.println("Ada,90");
         out.println("Grace,97");
-        out.println("Alan,72");
+        out.println("Alan,43");
         out.println("Linus,91");
         out.close();
     }
 
-    // method to demonstrate that a file outlives the program
-    public static void pythonFilesToJava() {
-        System.out.println();
-        System.out.println("=== 1. from python files to java ===");
-
-        File f = new File(SCORES_FILE);
-        System.out.println("file name:     " + f.getName());
-        System.out.println("full path:     " + f.getAbsolutePath());
-        System.out.println("exists():      " + f.exists());
-        System.out.println("length():      " + f.length() + " bytes");
-    }
+    
 
     // method to demonstrate File + Scanner and throws IOException
     public static void readingAFile() throws IOException {
